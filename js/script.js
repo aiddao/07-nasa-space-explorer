@@ -20,6 +20,16 @@ const modalExplanation = document.getElementById('modalExplanation');
 // We keep the latest API items here so clicks can open details in the modal.
 let currentItems = [];
 
+const factsList = ["Jupiter can fit between Earth and the Moon!", "A day on Venus is longer than a year on Venus!", "The largest volcano in the solar system is on Mars!", "Neutron stars can spin at a rate of 600 rotations per second!", "The Milky Way galaxy is estimated to contain 100-400 billion stars!", "The Hubble Space Telescope has provided over 1.3 million observations since its launch in 1990!", "Saturn's rings are made mostly of ice particles!", "The Sun accounts for about 99.86% of the total mass of the Solar System!", "A spoonful of a neutron star would weigh about 6 billion tons on Earth!", "The Voyager 1 spacecraft is the farthest human-made object from Earth, currently in interstellar space!"];
+
+function getRandomFact() {
+  const randomIndex = Math.floor(Math.random() * factsList.length);
+  return factsList[randomIndex];
+}
+
+const funFactElement = document.getElementById('funFact');
+funFactElement.textContent = getRandomFact();
+
 function openModal(item) {
   if (item.media_type === 'image') {
     modalMediaContainer.innerHTML = `<img src="${item.url}" alt="${item.title}">`;

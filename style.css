@@ -28,10 +28,25 @@ body {
   margin-bottom: 20px;
 }
 
-h1 {
+h1, h2 {
   font-family: Verdana, sans-serif;
   font-weight: bold;
   color: #212121;
+}
+
+.funFacts {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.funFacts p {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 /* Logo */

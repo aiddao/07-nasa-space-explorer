@@ -7,13 +7,9 @@
 
 /* Base page styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Public Sans', sans-serif;
   background-color: #f1f1f1;
   padding: 20px;
-}
-
-p {
-  font-family: public-sans, sans-serif;
 }
 
 /* Centered container */

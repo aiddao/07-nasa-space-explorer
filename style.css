@@ -12,6 +12,10 @@ body {
   padding: 20px;
 }
 
+p {
+  font-family: public-sans, sans-serif;
+}
+
 /* Centered container */
 .container {
   max-width: 1200px;

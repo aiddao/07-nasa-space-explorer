@@ -1,11 +1,46 @@
 # Project 7: NASA API - Space Explorer App
-NASA releases a new "Astronomy Picture of the Day" (APOD) every day—spotlighting breathtaking images of galaxies, stars, planets, and more.
+NASA releases a new "Astronomy Picture of the Day" (APOD) every day—spotlighting breathtaking images of galaxies, stars, planets, and more. This website allows a date to be selected and APOD from the selected day to the 8 following days will be displayed from NASA's APOD API.
+---
 
-Your task is to build an interactive web app that fetches and displays these photos using [NASA's API](https://api.nasa.gov/). Users will pick a date range and instantly view stunning photos from across the cosmos, along with titles and descriptions.
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [API / Data Sources](#api--data-sources)
+- [Contact](#contact)
 
-You'll get to use your skills to build something that's actually connected to real-world data from one of the most iconic organizations in the world.
+---
 
-## Starter Files
-- The provided files include a NASA logo, date inputs, a button, a placeholder for your gallery, and basic layout and styling to help you get started.
-- It also includes built-in logic (in `dateRange.js`) to handle the valid APOD date range—from June 16, 1995 to today. No need to modify it.
-- All your custom JavaScript should go in `script.js`. That's where you'll write the code that fetches data and displays your gallery.
+# About
+
+To provide an accessible way for space lovers to view NASA's Astronomy Pictures of the Day, and to keep track of favorite APODs.
+
+---
+
+# Features
+
+- Calendar date selector
+- Date, name, and descriptions for each image/video
+- A favorite button to keep track of favorite APODs
+
+---
+
+# Technologies Used
+
+- JavaScript
+- HTML / CSS
+- NASA APOD API
+
+---
+
+# API / Data Sources
+
+- NASA API
+
+---
+
+# Contact
+
+Name – Aiden Dao 
+Email – aidendao58@gmail.com 
+GitHub – https://github.com/aiddao

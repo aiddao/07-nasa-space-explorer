@@ -32,12 +32,23 @@
       </div>
     </div>
 
+    <section class="favorites-section" aria-labelledby="favoritesHeading">
+      <h2 id="favoritesHeading">Favorites</h2>
+      <div id="favoritesGallery" class="gallery favorites-gallery">
+        <div class="placeholder">
+          <div class="placeholder-icon">⭐</div>
+          <p>Your favorite space media will appear here.</p>
+        </div>
+      </div>
+    </section>
+
     <div id="mediaModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
       <div class="modal-content">
         <button id="closeModalBtn" class="close-modal" aria-label="Close modal">&times;</button>
         <div id="modalMediaContainer" class="modal-media-container"></div>
         <h2 id="modalTitle"></h2>
         <p id="modalDate" class="modal-date"></p>
+        <button id="modalFavoriteBtn" class="favorite-toggle-btn" type="button">Favorite</button>
         <p id="modalExplanation" class="modal-explanation"></p>
       </div>
     </div>
